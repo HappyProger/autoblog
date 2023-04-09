@@ -1,0 +1,121 @@
+body{  
+font-family: 'Roboto', sans-serif;   
+
+background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg) no-repeat center / cover;
+padding: 100px 0;
+}   
+
+.container{ 
+width:870px; 
+min-height:1900px; 
+border: 5px solid #fff; 
+margin:0 auto;  
+background:#fff; 
+} 
+.header{ 
+	display: flex;  
+	height: 150px; 
+
+ }
+ .title{ 
+ display:flex; 
+ justify-content:center; 
+ align-items:center; 
+ width:80%; 
+ height:100%;  
+ font-size: 40px;  
+ color: #fff;
+ background: url(https://bogatyr.club/uploads/posts/2021-11/1636960884_1-bogatyr-club-p-krasivii-fon-dlya-prevyu-1.jpg) no-repeat center / cover;
+  margin-right: 10px;
+  } 
+
+  .userpic{ 
+  display:flex; 
+  height:100%; 
+  width:20%;
+ 
+}
+img{ 
+width:175px;
+height:150px;  
+margin-bottom: 20px;
+ } 
+ h3{ 
+ font-size:20px;
+ font-weight:bold; }
+ .nav ul {  
+ 	border-radius: 10px;
+ display:flex; 
+ background: rgb(230, 230, 230);
+ margin: 10px 0;
+  } 
+  
+   .nav li a { 
+   	display: flex; 
+   	padding: 25px; 
+   	text-decoration: none; 
+   	color: #404040;
+   	font-weight: bold;
+   	border-right: 1px solid #616963;
+    } 
+    .nav li a:hover { 
+    background: rgb(196, 196, 196);  
+} 
+.foot ul {  
+	border-radius: 7px;
+ display:flex; 
+ background: rgb(230, 230, 230);
+ margin: 60px 0;
+  } 
+  
+   .foot li a { 
+   	display: flex; 
+   	padding: 25px; 
+   	text-decoration: none; 
+   	color: #404040;
+   	font-weight: bold;
+   	border-right: 1px solid #616963;
+    } 
+    .foot li a:hover { 
+    background: rgb(196, 196, 196);
+     }
+.content-wrapper{ 
+	display: flex; 
+	justify-content: space-between;
+} 
+.content{ width: 70%; 
+	padding: 20px; 
+}
+ .sidebar{ 
+padding: 20px; 
+width: 30%; 
+} 
+.skills li { 
+	margin: 5px 0;
+transition: transform .5s ease;
+ } 
+.skills li:hover { 
+transform:translateX(10px); 
+} 
+.font{ 
+	background-color: lightblue;
+font-weight:900;
+ }
+TD,TH {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+}
+tr { 
+transition: transform .5s ease;
+ }  
+ tr:hover{ 
+ 	transform:translateX(10px);
+  } 
+  td{ 
+  margin: 5px 0; 
+}
+
+
+
+
+
